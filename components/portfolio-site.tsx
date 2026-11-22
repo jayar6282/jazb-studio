@@ -73,7 +73,7 @@ export function PortfolioSite() {
       </header>
 
       <section className="hero" id="home" aria-labelledby="hero-title">
-        <div className="hero__image" aria-hidden="true" />
+        <div className="hero__image" style={{ backgroundImage: "url('portfolio-cinematic.png')" }} aria-hidden="true" />
         <div className="hero__shade" aria-hidden="true" />
         <div className="hero__content">
           <p className="eyebrow"><span className="eyebrow__dot" /> Freelance video editor</p>
