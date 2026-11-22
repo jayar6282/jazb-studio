@@ -3,9 +3,21 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Jay Ar Bao — Freelance Video Editor',
+  description: 'Jay Ar Bao is a freelance video editor creating engaging, meaningful visual stories for creators and businesses worldwide.',
   generator: 'v0.app',
+  openGraph: {
+    title: 'Jay Ar Bao — Freelance Video Editor',
+    description: 'Turning ideas into visual stories. Explore the portfolio and services of freelance video editor Jay Ar Bao.',
+    type: 'website',
+    images: [{ url: '/portfolio-cinematic.png', width: 1536, height: 1024, alt: 'Cinematic coastal landscape at blue hour' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jay Ar Bao — Freelance Video Editor',
+    description: 'Turning ideas into visual stories.',
+    images: ['/portfolio-cinematic.png'],
+  },
   icons: {
     icon: [
       {
@@ -26,11 +38,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
+  colorScheme: 'dark',
+  themeColor: '#11110f',
 }
 
 export default function RootLayout({
