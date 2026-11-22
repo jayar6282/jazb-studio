@@ -56,8 +56,8 @@ export function PortfolioSite() {
   return (
     <main>
       <header className="site-header">
-        <a className="wordmark" href="#home" aria-label="Jay Ar Bao, home">
-          <span className="wordmark__mark">J<span>/</span>B</span>
+        <a className="wordmark" href="#home" aria-label="Jay Ar Zeraus Bao, home">
+          <span className="wordmark__mark">J<span>/</span>Z<span>/</span>B</span>
           <span className="wordmark__caption">Independent video editor</span>
         </a>
         <nav className="main-nav" aria-label="Main navigation">
@@ -77,7 +77,7 @@ export function PortfolioSite() {
         <div className="hero__shade" aria-hidden="true" />
         <div className="hero__content">
           <p className="eyebrow"><span className="eyebrow__dot" /> Freelance video editor</p>
-          <h1 id="hero-title">Jay Ar<br /><em>Bao.</em></h1>
+          <h1 id="hero-title">Jay Ar Zeraus<br /><em>Bao.</em></h1>
           <div className="hero__bottom">
             <div>
               <p className="hero__statement">Turning ideas into<br />visual stories.</p>
@@ -99,11 +99,11 @@ export function PortfolioSite() {
           <h2 id="about-title">The right cut<br />changes <em>everything.</em></h2>
           <div className="about__copy">
             <p className="about__lead">Good editing is more than putting clips together. It&apos;s finding the feeling in the footage—and giving every frame a reason to be there.</p>
-            <p>I&apos;m Jay, a freelance video editor working with creators and businesses around the world. I bring a thoughtful eye, a collaborative process, and a love for the small details that make a story stay with you.</p>
+            <p>I&apos;m Jay Ar Zeraus Bao, a freelance video editor working with creators and businesses around the world. I bring a thoughtful eye, a collaborative process, and a love for the small details that make a story stay with you.</p>
             <a className="text-link text-link--light" href="#contact">A little more about working together <ArrowRight aria-hidden="true" /></a>
           </div>
         </div>
-        <div className="about__signoff"><span>JAY AR BAO</span><span>VIDEO EDITOR · VISUAL STORYTELLER</span></div>
+        <div className="about__signoff"><span>JAY AR ZERAUS BAO</span><span>VIDEO EDITOR · VISUAL STORYTELLER</span></div>
       </section>
 
       <section className="services section-wrap" id="services" aria-labelledby="services-title">
@@ -175,11 +175,11 @@ export function PortfolioSite() {
       </section>
 
       <footer className="site-footer">
-        <a className="wordmark wordmark--footer" href="#home" aria-label="Jay Ar Bao, back to top">
-          <span className="wordmark__mark">J<span>/</span>B</span>
+        <a className="wordmark wordmark--footer" href="#home" aria-label="Jay Ar Zeraus Bao, back to top">
+          <span className="wordmark__mark">J<span>/</span>Z<span>/</span>B</span>
           <span className="wordmark__caption">Independent video editor</span>
         </a>
-        <p>© {new Date().getFullYear()} Jay Ar Bao. Made with intention.</p>
+        <p>© {new Date().getFullYear()} Jay Ar Zeraus Bao. Made with intention.</p>
         <a href="#home" className="footer-top">Back to top <ArrowUpRight aria-hidden="true" /></a>
       </footer>
     </main>
