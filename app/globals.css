@@ -75,7 +75,7 @@
 
 .hero { min-height: 760px; height: min(900px, 100svh); max-height: 1000px; position: relative; display: flex; align-items: center; overflow: hidden; background: #121311; }
 .hero__image, .hero__shade { position: absolute; inset: 0; }
-.hero__image { background-image: url('/portfolio-cinematic.png'); background-size: cover; background-position: center 54%; opacity: .77; transform: scale(1.015); animation: reveal-image 1.2s ease-out both; }
+.hero__image { background-size: cover; background-position: center 54%; opacity: .77; transform: scale(1.015); animation: reveal-image 1.2s ease-out both; }
 .hero__shade { background: linear-gradient(90deg, rgb(15 16 15 / 98%) 0%, rgb(15 16 15 / 89%) 31%, rgb(15 16 15 / 35%) 69%, rgb(15 16 15 / 25%) 100%), linear-gradient(0deg, #11110f 0%, transparent 22%, transparent 80%, rgb(17 17 15 / 45%) 100%); }
 .hero__content { position: relative; z-index: 1; width: 100%; padding: 145px var(--page-gutter) 68px; max-width: 1580px; margin: 0 auto; }
 .eyebrow { color: #d6c29b; font-size: 10px; letter-spacing: .17em; text-transform: uppercase; display: flex; align-items: center; gap: 11px; }
