@@ -5,6 +5,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Jay Ar Zeraus Bao | Freelance Video Editor',
   description: 'Jay Ar Zeraus Bao is a freelance video editor creating engaging visual stories, short-form videos, long-form content, and motion graphics for creators and businesses worldwide.',
+  verification: {
+    google: 'P2BOvTVaUyibt-fULPuYXFb2VSwIxXY309gakcOrY1M',
+  },
   robots: {
     index: true,
     follow: true,
